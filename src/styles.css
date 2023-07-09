@@ -1,0 +1,93 @@
+* {
+  font-family: Arial;
+}
+
+.container {
+  background-color: #24232b;
+  padding: 24px;
+  margin: 2rem 5rem 1rem 5rem;
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  font-weight: 700;
+  padding-bottom: 26px;
+  margin: 2rem;
+}
+
+.charlength input {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2a8b8b;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.copyBtn {
+  height: 30px;
+  font-size: 10px;
+}
+
+.charlength {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+  padding-bottom: 35px;
+  margin: 1.5rem;
+}
+
+.charlength span {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+
+.checkboxes {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  margin: 1rem;
+}
+
+.checkboxes div {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 30px;
+}
+
+.generateBtn {
+  width: 100%;
+  font-size: 22px;
+  padding: 20px;
+}
+
+.errorMessage {
+  color: red;
+  padding-bottom: 5px;
+}
+
+.password-strength {
+  width: 100%;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  color: white;
+  margin: 1rem;
+}
